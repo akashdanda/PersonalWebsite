@@ -11,7 +11,7 @@ export default function HeroSection() {
         <div className="space-y-8">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold text-white">
-              Hi, I'm <span className="text-orange-400">Akash</span>
+              {"Hi, I'm"} <span className="text-orange-400">Akash</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-2xl mx-auto">
               {personalInfo.title} passionate about building innovative solutions with cutting-edge technology
