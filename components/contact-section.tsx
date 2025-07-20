@@ -13,11 +13,11 @@ export default function ContactSection() {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-white mb-4">Let's Connect</h3>
+              <h3 className="text-2xl font-semibold text-white mb-4">{"Let's Connect"}</h3>
               <p className="text-gray-300 leading-relaxed">
-                I'm always interested in discussing new opportunities, innovative projects, or just connecting with
-                fellow developers. Feel free to reach out!
+                {"I'm always interested in discussing new opportunities, innovative projects, or just connecting with fellow developers. Feel free to reach out!"}
               </p>
+
             </div>
 
             <div className="space-y-4">
