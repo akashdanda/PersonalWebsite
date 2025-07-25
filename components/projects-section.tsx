@@ -1,5 +1,5 @@
 import { projects } from "../data/projects"
-import { Calendar, Code } from "lucide-react"
+import { Calendar, Code, ExternalLink } from "lucide-react"
 
 export default function ProjectsSection() {
   return (
@@ -49,6 +49,16 @@ export default function ProjectsSection() {
                   </span>
                 ))}
               </div>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1 text-sm text-orange-400 hover:underline"
+                >
+                  View Project <ExternalLink size={14} />
+                </a>
+              )}
             </div>
           ))}
         </div>

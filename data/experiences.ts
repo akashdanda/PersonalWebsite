@@ -14,9 +14,9 @@ export const experiences: Experience[] = [
     current: true,
     description: [
       "Creating LLM-powered APIs in Python with Streamlit to summarize and validate over 100K PDFs",
-      "Improving query response time by 30% through batch processing",
+      "Boosted token efficiency & throughput by 110% via batch processing",
       "Leveraging Docker for scalable deployment",
-      "Fine-tuning OCR workflows for invoice processing using AWS Textract, Azure & Google Cloud Vision"
+      "Validating & labeling financial documents to uptrain custom OCR models on GCP, achieving a 0.91 F1 score"
     ],
   },
   {

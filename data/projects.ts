@@ -4,18 +4,19 @@ export interface Project {
   duration: string
   description: string[]
   current?: boolean
+  link: string
 }
 
 export const projects: Project[] = [
   {
     title: "SmartSend",
-    technologies: ["JavaScript", "Chrome Extensions API", "Gmail.js", "Gemini API", "HTML", "CSS"],
+    technologies: ["JavaScript", "Chrome Extensions API", "Node.JS", "OpenAI API", "HTML", "CSS"],
     duration: "July 2025 - Present",
-    current: true,
     description: [
-      "Building a Chrome extension with Manifest V3 and JavaScript, integrating gmail.js to add AI features to Gmail",
-      "Integrating Gemini's API and DOM manipulation to generate and summarize emails in real time",
+      "Built Chrome extension with Manifest V3 for AI-driven email replies using the OpenAI API & DOM extraction",
+      "Developed a Node.js + Express backend to securely route API calls and manage request handling",
     ],
+    link: "https://github.com/akashdanda/SmartSend"
   },
   {
     title: "Therapist.AI",
@@ -25,6 +26,7 @@ export const projects: Project[] = [
       "Built AI-driven mental therapy platform using GPT LLM to facilitate interactive therapy sessions",
       "Utilized React and Node.js for full-stack development and Firebase for authentication/data storage",
     ],
+    link: "https://github.com/akashdanda/TherapistAI"
   },
     {
     title: "Fitness Society",
@@ -33,13 +35,15 @@ export const projects: Project[] = [
     description: [
       "Built fitness based social network website so users could track fitness progress and record workouts"
     ],
+    link: "https://github.com/akashdanda/FitnessSociety"
   },
       {
-    title: "Earth Buddy",
+    title: "EcoBuddy",
     technologies: ["Java", "Android Studio", "Firebase"],
     duration: "Dec 2021 - Jan 2022",
     description: [
       "Developed Java-based Android app (worked in a team) using Firebase for data storage, enabling users to track their carbon footprint and learn about sustainability."
     ],
+    link: "https://youtu.be/HuweR0DVppM"
   },
 ]
