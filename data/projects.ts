@@ -4,14 +4,23 @@ export interface Project {
   duration: string
   description: string[]
   current?: boolean
-  link: string
+  link?: string
 }
 
 export const projects: Project[] = [
+    {
+    title: "LicenseTracker",
+    technologies: ["YOLOv11", "AWS Textract", "Streamlit", "AWS EC2", "Roboflow"],
+    duration: "July 2025 - Present",
+    current: true,
+    description: [
+      "Creating real-time license plate recognition system using YOLOv11 & AWS Textract",
+    ],
+  },
   {
     title: "SmartSend",
     technologies: ["JavaScript", "Chrome Extensions API", "Node.JS", "OpenAI API", "HTML", "CSS"],
-    duration: "July 2025 - Present",
+    duration: "July 2025",
     description: [
       "Built Chrome extension with Manifest V3 for AI-driven email replies using the OpenAI API & DOM extraction",
       "Developed a Node.js + Express backend to securely route API calls and manage request handling",

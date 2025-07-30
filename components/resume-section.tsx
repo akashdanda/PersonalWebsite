@@ -18,31 +18,14 @@ export default function ResumeSection() {
               </p>
             </div>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        {/* Download as PDF from Google Docs */}
-        <a
-        href="https://docs.google.com/document/d/1Q1aYVtbQ0eCu0N5o-ASWCJJZuoxA2jFh2Ia8hBVNclY/export?format=pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        >
-        <button className="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200">
-          <Download size={20} />
-          Download PDF
-        </button>
-        </a>
-
-      {/* View the Google Doc online */}
-      <a
-        href="https://docs.google.com/document/d/1Q1aYVtbQ0eCu0N5o-ASWCJJZuoxA2jFh2Ia8hBVNclY/edit?tab=t.0"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      <button className="flex items-center gap-2 border border-gray-600 hover:border-orange-400 text-gray-300 hover:text-orange-400 px-6 py-3 rounded-lg font-medium transition-colors duration-200">
-        <ExternalLink size={20} />
-        View Online
-      </button>
-    </a>
-  </div>
+<div className="flex justify-center">
+  <a href="/AkashDanda_Resume.pdf" download>
+    <button className="flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200">
+      <Download size={20} />
+      Download PDF
+    </button>
+  </a>
+</div>
 
 
             <div className="pt-8 border-t border-gray-700">
