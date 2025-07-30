@@ -1,4 +1,4 @@
-import { Download, ExternalLink } from "lucide-react"
+import { Download } from "lucide-react"
 
 export default function ResumeSection() {
   return (
