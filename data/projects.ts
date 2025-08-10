@@ -12,12 +12,12 @@ export const projects: Project[] = [
     title: "LicenseTracker",
     technologies: ["YOLOv11", "AWS Textract", "Streamlit", "AWS EC2", "Roboflow"],
     duration: "July 2025 - Present",
-    current: true,
     description: [
-      "Fine-tuning YOLOv11 on 10k+ license plate images, achieving mAP@50 of 0.96 for high-accuracy detection",
-      "Building a real-time recognition system using AWS Textract and Streamlit for OCR-based output",
-      "Deploying the system on AWS EC2; image storage and retrieval through AWS S3 buckets for scalability",
+      "Fine-tuned YOLOv11 on 10k+ license plate images, achieving mAP@50 of 0.96 for high-accuracy detection",
+      "Built a real-time recognition system using AWS Textract and Streamlit for OCR-based output",
+      "Deployed the system on AWS EC2; image storage and retrieval through AWS S3 buckets for scalability",
     ],
+    link: "https://github.com/akashdanda/LicenseTracker"
   },
   {
     title: "SmartSend",
