@@ -14,7 +14,9 @@ export const projects: Project[] = [
     duration: "July 2025 - Present",
     current: true,
     description: [
-      "Creating real-time license plate recognition system using YOLOv11 & AWS Textract",
+      "Fine-tuning YOLOv11 on 10k+ license plate images, achieving mAP@50 of 0.96 for high-accuracy detection",
+      "Building a real-time recognition system using AWS Textract and Streamlit for OCR-based output",
+      "Deploying the system on AWS EC2; image storage and retrieval through AWS S3 buckets for scalability",
     ],
   },
   {
