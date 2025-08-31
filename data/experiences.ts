@@ -7,15 +7,7 @@ export interface Experience {
 }
 
 export const experiences: Experience[] = [
-    {
-    title: "Software Intern",
-    company: "Circular Impact Network",
-    duration: "July 2025 - Present",
-    current: true,
-    description: [
-      "Incoming August 2025"
-    ],
-  },
+
   {
     title: "Software Intern",
     company: "Tightrope Interactive",
@@ -26,7 +18,8 @@ export const experiences: Experience[] = [
       "Boosted token efficiency & throughput by 110% via batch processing",
       "Training YOLOv11 model on 17k+ PDFS to detect text layout types & optimize downstream OCR performance", 
       "Leveraging Docker for scalable deployment",
-      "Validating & labeling financial documents to uptrain custom OCR models on GCP, achieving a 0.91 F1 score"
+      "Validating & labeling financial documents to uptrain custom OCR models on GCP, achieving a 0.91 F1 score",
+      "Integrated Azure Document Processing and Google Cloud Vision SDKs to manage large-scale document workflows"
     ],
   },
   {
@@ -39,6 +32,7 @@ export const experiences: Experience[] = [
       "Optimized player movement in Unity by implementing C# scripts improving frame rate stability by 25%",
       "Leveraged Hugging Face STT & OpenAI LLM API for real-time voice recognition & AI based text interpretation",
       "Implemented a graph backend with Neo4j to optimize client project management & dependency tracking, decreasing client task completion time by 20%",
+      "Built a frontend using React, Next.js, and Tailwind CSS to provide interactive visualization for projects"
     ],
   },
   {

@@ -8,10 +8,23 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+  {
+    current:true,
+    title: "Transformer Translator",
+    technologies: ["Pytorch", "Hugging Face", "Tokenizers", "Tensorboard"],
+    duration: "August 2025 - Present",
+    description: [
+      "Implemented a Transformer architecture from scratch in PyTorch for English Spanish translation, including encoder decoder framework, multi-head attention, feed-forward layers, and residual connections",
+      "Built a custom bilingual dataset pipeline(93k sentence pairs) leveraging Hugging Faces opus books corpus with word-level tokenization, special tokens, and sequence padding for training",
+      "Designed a PyTorch Dataset class with encoder, decoder, and causal masks for autoregressive translation training",
+      "Developing training & validation pipelines with Adam optimizer & TensorBoard monitoring to track performance"
+    ],
+    link: "https://github.com/akashdanda/Transformer"
+  },
     {
     title: "LicenseTracker",
     technologies: ["YOLOv11", "AWS Textract", "Streamlit", "AWS EC2", "Roboflow"],
-    duration: "July 2025 - Present",
+    duration: "August 2025",
     description: [
       "Fine-tuned YOLOv11 on 10k+ license plate images, achieving mAP@50 of 0.96 for high-accuracy detection",
       "Built a real-time recognition system using AWS Textract and Streamlit for OCR-based output",
