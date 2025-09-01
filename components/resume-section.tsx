@@ -29,7 +29,7 @@ export default function ResumeSection() {
 
 
             <div className="pt-8 border-t border-gray-700">
-              <p className="text-gray-400 text-sm">Last updated: July 2025</p>
+              <p className="text-gray-400 text-sm">Last updated: September 2025</p>
             </div>
           </div>
         </div>
