@@ -19,8 +19,7 @@ export const experiences: Experience[] = [
   {
     title: "Software Intern",
     company: "Tightrope Interactive",
-    duration: "May 2025 - Present",
-    current: true,
+    duration: "May 2025 - Aug 2025",
     description: [
       "Creating LLM-powered APIs in Python with Streamlit to summarize and validate over 100K PDFs",
       "Boosted token efficiency & throughput by 110% via batch processing",
