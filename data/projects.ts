@@ -21,6 +21,17 @@ export const projects: Project[] = [
     ],
     link: "https://github.com/akashdanda/Transformer"
   },
+  {
+    title: "Neural Letter Classifier",
+    technologies: ["Python", "NumPy", "Matplotlib"],
+    duration: "Sept. 2025",
+    description: [
+      "Built a feedforward neural network in Python from scratch to classify 5 by 6 pixel letters (A, B, C)",
+      "Implemented forward/backpropagation and gradient descent with NumPy, reaching 99% accuracy",
+      "Developed training utilities with accuracy/loss plots & visualizations, enabling performance tracking",
+    ],
+    link: "https://github.com/akashdanda/neural_network"
+  },
     {
     title: "LicenseTracker",
     technologies: ["YOLOv11", "AWS Textract", "Streamlit", "AWS EC2", "Roboflow"],
