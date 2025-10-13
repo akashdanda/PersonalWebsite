@@ -9,15 +9,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    current:true,
     title: "Transformer Translator",
     technologies: ["Pytorch", "Hugging Face", "Tokenizers", "Tensorboard"],
-    duration: "August 2025 - Present",
+    duration: "Aug. 2025 - Oct. 2025",
     description: [
       "Implemented a Transformer architecture from scratch in PyTorch for English Spanish translation, including encoder decoder framework, multi-head attention, feed-forward layers, and residual connections",
       "Built a custom bilingual dataset pipeline(93k sentence pairs) leveraging Hugging Faces opus books corpus with word-level tokenization, special tokens, and sequence padding for training",
       "Designed a PyTorch Dataset class with encoder, decoder, and causal masks for autoregressive translation training",
-      "Developing training & validation pipelines with Adam optimizer & TensorBoard monitoring to track performance"
+      "Developing training & validation pipelines with Adam optimizer & TensorBoard monitoring to track performance(Bleu: 27)"
     ],
     link: "https://github.com/akashdanda/Transformer"
   },

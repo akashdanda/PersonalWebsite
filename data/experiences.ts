@@ -7,15 +7,38 @@ export interface Experience {
 }
 
 export const experiences: Experience[] = [
+  {
+    title: "Software Engineer",
+    company: "Expertly.AI",
+    duration: "Sept 2025 - Present",
+    current: true,
+    description: ["Building AI workflow tools"
+    ],
+  },
     {
-    title: "AI Researcher",
+    title: "Computer Vision Researcher",
     company: "University of Illinois at Urbana-Champaign",
     duration: "Sept 2025 - Present",
     current: true,
-    description: [ "Incoming"
+    description: [ "Deploying & testing RELOCATE, a training-free baseline for visual query localization in large-scale video pipelines",
+     "Benchmarking pipelines on the Ego4D Visual Query 2D Localization dataset, reproducing results with a 49 percent relative gain in spatio-temporal AP over prior methods",
+      "Building a text-to-visual query system that embeds natural language into vision models for object localization, enabling multimodal retrieval across cluttered scenes and long-duration video datasets"
     ],
   },
-
+  {
+    title: "Software Engineer",
+    company: "Disruption Lab at Gies",
+    duration: "Aug. 2024 - Present",
+    current: true,
+    description: [
+      "Building live ID verification pipeline with fine-tuned YOLOv12 & OpenCV, deploying across 170+ countries",
+      "Developed real-time lip synchronization algorithm for VR by analyzing the volume of WAV outputs from TTS API",
+      "Optimized player movement in Unity by implementing C# scripts improving frame rate stability by 25%",
+      "Leveraged Hugging Face STT & OpenAI LLM API for real-time voice recognition & AI based text interpretation",
+      "Implemented a graph backend with Neo4j to optimize client project management & dependency tracking, decreasing client task completion time by 20%",
+      "Built a frontend using React, Next.js, and Tailwind CSS to provide interactive visualization for projects"
+    ],
+  },
   {
     title: "Software Intern",
     company: "Tightrope Interactive",
@@ -27,19 +50,6 @@ export const experiences: Experience[] = [
       "Leveraging Docker for scalable deployment",
       "Validating & labeling financial documents to uptrain custom OCR models on GCP, achieving a 0.91 F1 score",
       "Integrated Azure Document Processing and Google Cloud Vision SDKs to manage large-scale document workflows"
-    ],
-  },
-  {
-    title: "Software Engineer",
-    company: "Disruption Lab at Gies",
-    duration: "Aug. 2024 - Present",
-    current: true,
-    description: [
-      "Developed real-time lip synchronization algorithm for VR by analyzing the volume of WAV outputs from TTS API",
-      "Optimized player movement in Unity by implementing C# scripts improving frame rate stability by 25%",
-      "Leveraged Hugging Face STT & OpenAI LLM API for real-time voice recognition & AI based text interpretation",
-      "Implemented a graph backend with Neo4j to optimize client project management & dependency tracking, decreasing client task completion time by 20%",
-      "Built a frontend using React, Next.js, and Tailwind CSS to provide interactive visualization for projects"
     ],
   },
   {
