@@ -8,6 +8,16 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+    {
+    title: "MapReduce Framework",
+    technologies: ["Python", "Flask", "Multi-threading"],
+    duration: "Nov. 2025",
+    description: [
+      "Engineered distributed MapReduce system with fault tolerance achieving 2.45x speedup across 3 worker nodes via heartbeat monitoring and automatic task reassignment",
+      "Implemented hash-based partitioning to distribute 9M+ key-value pairs across reducers, coordinating map-shuffle-reduce phases via Flask APIs for parallel execution"
+    ],
+    link: "https://github.com/akashdanda/map_reduce"
+  },
   {
     title: "Transformer Translator",
     technologies: ["Pytorch", "Hugging Face", "Tokenizers", "Tensorboard"],

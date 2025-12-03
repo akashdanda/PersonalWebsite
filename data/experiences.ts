@@ -12,17 +12,15 @@ export const experiences: Experience[] = [
     company: "Expertly.AI",
     duration: "Sept 2025 - Present",
     current: true,
-    description: ["Building AI workflow tools"
+    description: ["AI workflow tools"
     ],
   },
     {
     title: "Computer Vision Researcher",
     company: "University of Illinois at Urbana-Champaign",
-    duration: "Sept 2025 - Present",
+    duration: "Sept 2025 - Nov 2025",
     current: true,
-    description: [ "Deploying & testing RELOCATE, a training-free baseline for visual query localization in large-scale video pipelines",
-     "Benchmarking pipelines on the Ego4D Visual Query 2D Localization dataset, reproducing results with a 49 percent relative gain in spatio-temporal AP over prior methods",
-      "Building a text-to-visual query system that embeds natural language into vision models for object localization, enabling multimodal retrieval across cluttered scenes and long-duration video datasets"
+    description: [ "Visual Query Localization: Region Encoder Network"
     ],
   },
   {
@@ -31,12 +29,9 @@ export const experiences: Experience[] = [
     duration: "Aug. 2024 - Present",
     current: true,
     description: [
-      "Building live ID verification pipeline with fine-tuned YOLOv12 & OpenCV, deploying across 170+ countries",
-      "Developed real-time lip synchronization algorithm for VR by analyzing the volume of WAV outputs from TTS API",
-      "Optimized player movement in Unity by implementing C# scripts improving frame rate stability by 25%",
-      "Leveraged Hugging Face STT & OpenAI LLM API for real-time voice recognition & AI based text interpretation",
-      "Implemented a graph backend with Neo4j to optimize client project management & dependency tracking, decreasing client task completion time by 20%",
-      "Built a frontend using React, Next.js, and Tailwind CSS to provide interactive visualization for projects"
+      "Computer Vision ID Verification System",
+      "Fullstack: Project Portfolio Management System",
+      "Virtual Reality: Virtual Office Hours"
     ],
   },
   {
@@ -44,12 +39,8 @@ export const experiences: Experience[] = [
     company: "Tightrope Interactive",
     duration: "May 2025 - Aug 2025",
     description: [
-      "Creating LLM-powered APIs in Python with Streamlit to summarize and validate over 100K PDFs",
-      "Boosted token efficiency & throughput by 110% via batch processing",
-      "Training YOLOv11 model on 17k+ PDFS to detect text layout types & optimize downstream OCR performance", 
-      "Leveraging Docker for scalable deployment",
-      "Validating & labeling financial documents to uptrain custom OCR models on GCP, achieving a 0.91 F1 score",
-      "Integrated Azure Document Processing and Google Cloud Vision SDKs to manage large-scale document workflows"
+      "Financial Data Processing",
+      "OCR + Cloud Services + LLMs"
     ],
   },
   {
@@ -57,9 +48,7 @@ export const experiences: Experience[] = [
     company: "FIRST Robotics 9125",
     duration: "Aug. 2022 - Aug. 2024",
     description: [
-      "Enhanced autonomous scoring by 100% through the integration of computer vision algorithms and control loops",
-      "Led a team of 7 developers to design scalable software architectures with Java",
-      "Optimized P.I.D. efficiency and decreased latency by 30%",
+      "PID + Computer Vision + Autonomy",
     ],
   },
   {
@@ -67,8 +56,8 @@ export const experiences: Experience[] = [
     company: "Enscale.Bio",
     duration: "June 2023 - Aug. 2023",
     description: [
-      "Analyzed bioreactor data with PostgreSQL & MQTT protocol for real time insights",
-      "Assisted in developing dynamic web interfaces with AngularJS and HTML/CSS, enhancing user experience",
+      "MQTT Protocol + Bioreactor",
+      "Frontend Development"
     ],
   },
   {
@@ -76,8 +65,7 @@ export const experiences: Experience[] = [
     company: "Curieux Academic Journal",
     duration: "June 2022 - July 2023",
     description: [
-      "Benchmarked machine learning models for obesity classification through 13 factors",
-      "Optimized data preprocessing for 2000+ individuals with Pandas/Numpy/Scikit-Learn",
+      "Machine Learning Obesity Classification"
     ],
   },
 ]
